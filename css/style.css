@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@300;400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Gretaros';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gretaros Regular'), url('../font/Gretaros-Regular.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p, li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+}
+
+/* ------------------------------- container ------------------------------- */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-2{
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ------------------------------- header and footer ------------------------------- */
+
+.header{
+    height: 94vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/Universe.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    height: 40vh;
+    background-color: #263238;
+}
+
+/* ------------------------------- navbar ------------------------------- */
+
+.navbar{
+    padding: 1rem;
+}
+
+.logo{
+    font-family: 'Bangers', cursive;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+.navbar a{
+    color: white;
+    padding-bottom: 0.3rem;
+}
+
+.navbar .navitem{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.navbar .logo{
+    float: left;
+    font-size: 3.5rem;
+    color: #f4f4f4;
+}
+
+.navbar .navitems{
+    float: right;
+    color: #f4f4f4;
+    margin-top: 1rem;
+}
+
+.navbar::after{
+    content: " ";
+    display: block; 
+    clear: both;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+
+/* ------------------------------- section1 ------------------------------- */
+
+.showcase1{
+    background-color: #ddd;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.row{
+    height: 368px;
+    background-color: white;
+    margin-bottom: 10rem;
+    box-shadow: 0px 0px 20px 0px #aaaaaa;
+}
+
+.row .text-box{
+    padding: 4rem;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.showcase1 .l1 a{
+    color: #e63946;
+}
+
+.l1 a:hover{
+    border-bottom: 1px solid #e63946;
+}
+
+.row::after{
+    content: " ";
+    display: block; 
+    clear: both;
+}
+
+/* ------------------------------- page 1 ------------------------------- */
+
+.row1 .img-box{
+    float: left;
+    width: 50%;
+}
+
+.row1 .text-box{
+    float: right;
+    width: 50%;
+}
+
+/* ------------------------------- page 2 ------------------------------- */
+
+.row_1 .img-box,
+.row_2 .text-box,
+.row_3 .img-box,
+.row_4 .text-box,
+.row_5 .img-box,
+.row_6 .text-box,
+.row_7 .img-box,
+.row_8 .text-box{
+    float: left;
+    width: 50%;
+}
+
+.row_1 .text-box,
+.row_2 .img-box,
+.row_3 .text-box,
+.row_4 .img-box,
+.row_5 .text-box,
+.row_6 .img-box,
+.row_7 .text-box,
+.row_8 .img-box{
+    float: right;
+    width: 50%;
+}
+
+/* ------------------------------- section2 ------------------------------- */
+
+.showcase2{
+    background-color: #ddd;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.row-2{
+    height: 550px;
+    background-color: white;
+    margin-bottom: 10rem;
+    box-shadow: 0px 0px 20px 0px #aaaaaa;
+}
+
+/* ------------------------------- Universe ------------------------------- */
+
+.div_1{
+    padding-top: 6.3rem;
+}
+
+.universe{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.uni_1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* ------------------------------- Galaxy ------------------------------- */
+
+.galaxy{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color:#333333;
+}
+
+.row .text-box{
+    color: #555555;
+}
+
+/* ------------------------------- earth ------------------------------- */
+
+.section{
+    height: 94vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/earth.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.earth{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.link1{
+    display: inline-block;
+    padding-top: 2rem;
+    padding-left: 73rem ;
+}
+
+.section .l2 a{
+    color: #f4f4f4;
+}
+
+.l2 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- Asia ------------------------------- */
+
+.asia{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color:#f4f4f4;
+}
+
+.row3 .text-box-1{
+    padding-top: 3em;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.row3{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/Asia.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------- India ------------------------------- */
+
+.india{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color:#f4f4f4;
+}
+
+.row4 .text-box-1{
+    padding-top: 2em;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.row4{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/india.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------- Assam ------------------------------- */
+
+.assam{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color:#f4f4f4;
+}
+
+.row5 .text-box-1{
+    padding-top: 4em;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.row5{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/assam.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------- about me ------------------------------- */
+
+.end{
+    font-family: 'Gretaros';
+    font-size:4rem;
+    text-align: center;
+    color: #e63946;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+}
+
+.info1{
+    font-size: 2rem;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.info2{
+    font-size: small;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.link2{
+    display: inline-block;
+    padding-top: 2rem;
+    padding-left: 55rem ;
+}
+
+.l2 a{  
+    color: #f4f4f4;
+}
+
+.back{
+    float: right;
+}
+
+/* ------------------------------- PLANET ------------------------------- */
+
+.header1{
+    height: 94vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/galaxy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_2{
+    padding-top: 3rem;
+}
+
+.galaxy1{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.gal_1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* ------------------------------- mercury ------------------------------- */
+
+.header2{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/mercury.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_3{
+    padding-top: 4.5rem;
+}
+
+.mercury{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.mercury1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header2 a{
+    color: #f4f4f4;
+}
+
+.header2 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- venus ------------------------------- */
+
+.header3{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/venus.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_4{
+    padding-top: 3rem;
+}
+
+.venus{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.venus1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header3 a{
+    color: #f4f4f4;
+}
+
+.header3 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- earth ------------------------------- */
+
+.header4{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/earth2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_5{
+    padding-top: 2.6rem;
+}
+
+.earth_{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.earth1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header4 a{
+    color: #f4f4f4;
+}
+
+.header4 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- mars ------------------------------- */
+
+.header5{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/mars.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_6{
+    padding-top: 1.8rem;
+}
+
+.mars{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.mars1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header5 a{
+    color: #f4f4f4;
+}
+
+.header5 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
+/* ------------------------------- jupiter ------------------------------- */
+
+.header6{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/jupiter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_7{
+    padding-top: 1.8rem;
+}
+
+.jupiter{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.jupiter1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header6 a{
+    color: #f4f4f4;
+}
+
+.header6 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- saturn ------------------------------- */
+
+.header7{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/saturn.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_8{
+    padding-top: 1.8rem;
+}
+
+.saturn{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.saturn1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header7 a{
+    color: #f4f4f4;
+}
+
+.header7 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- uranus ------------------------------- */
+
+.header8{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/uranus.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_9{
+    padding-top: 4rem;
+}
+
+.uranus{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.uranus1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header8 a{
+    color: #f4f4f4;
+}
+
+.header8 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- neptune ------------------------------- */
+
+.header9{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/neptune.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_10{
+    padding-top: 1.8rem;
+}
+
+.neptune{
+    font-family: 'Gretaros';
+    font-size: 5rem;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.neptune1{
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header9 a{
+    color: #f4f4f4;
+}
+
+.header9 a:hover{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/* ------------------------------- media queries ------------------------------- */
+
+@media (max-width: 500px){
+    html{
+        font-size: 45%;
+    }
+
+    .all-header{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    .section{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .link1{
+        display: block;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .row-2{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    .footer{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    .footer .link2{
+        padding-left: 40%;
+    }
+
+    .footer .back{
+        padding-top: 2rem;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .l2 .back:hover{
+        border-bottom: none;
+    }
+}
